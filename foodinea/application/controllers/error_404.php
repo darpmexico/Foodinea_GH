@@ -1,4 +1,6 @@
 <?php 
+
+/*Controllador para error 404*/
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
