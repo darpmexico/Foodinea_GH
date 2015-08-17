@@ -36,11 +36,7 @@
     </head>
 
     <body id="pageTop">
-
-        <!-- Analytics code -->
-
-        <!-- ***** Theme switcher ***** -->
-       
+        <!-- ***** Top Navigation ***** -->
         <section id="topNavigation" class="top-navigation">
 
             <nav class="navbar navbar-default" role="navigation">
@@ -138,33 +134,36 @@
         </section><!-- /.top-navigation -->
 
 
-
-        <!-- ***** Header ***** -->
         <header class="header">
 
             <div class="header-img">
                 <div class="overlay overlay-black-70"></div>
                 <div class="container container-inner">
-                    <h1>Empty page</h1>
+                    
                 </div>
             </div>
-
+ 
         </header>
 
+        <div class="container">
+            <h1>Operators info</h1>
+                <h2>Why sell through Foodinea</h2>
 
-        <!-- ***** Breadcrumb ***** -->
-        <div class="container-fluid breadcrumb-container">
-            <div class="container">
-                <ol class="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li class="active">Empty page</li>
-                </ol>
-            </div>
+                <p>Foodinea is the leading platform tours, attractions, activities for foodies, lifestyle and good living. We offer hundreds of products in different countries. Foodinea is growing up and we are ready to conquer the whole world. </p>
+                <h3>Benefits</h3>
+                    <ul><li>More reservation</li> 
+                        <li> Allow your customers to book online</li>
+                        <li>Saves time for your customers to find the activity you sell</li>
+                        <li>Protect your margins</li>
+                        <li>Get higher profits</li>
+                    </ul>
         </div>
 
-        asddsa
 
-        <!-- ***** Footer ***** -->
+       
+
+
+
         <footer id="footer" class="footer">
 
             <div class="overlay overlay-black-80"></div>
@@ -208,7 +207,7 @@
 
         </footer>
 
-
+       
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -218,15 +217,23 @@
         <![endif]-->
 
         <!-- Scripts -->
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/jquery.cookie.js"></script>
+        <script src="assets/js/jquery-ui.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/smoothscroll.js"></script>
         <script src="assets/js/html5shiv.js"></script>
-        <script src="assets/js/scrollto.js"></script>
         <script src="assets/js/imagesloaded.js"></script>
-        <script src="assets/js/parallax.js"></script>
+        <script src="assets/js/flexslider.js"></script>
+        <script src="assets/js/owlcarousel.js"></script>
         <script src="assets/js/easing.js"></script>
+        <script src="assets/js/validate.js"></script>
+        <script src="assets/js/masonry.js"></script>
+        <script src="assets/js/scrollto.js"></script>
+        <script src="assets/js/parallax.js"></script>
+        <script src="assets/js/countup.js"></script>
+        <script src="assets/js/google-mapster.js"></script>
 
         <!-- Application -->
         <script src="assets/js/application.js"></script>
@@ -236,7 +243,14 @@
             APP.init();
             APP.themeswitcher();
             APP.stickynav();
+            APP.flexSlider();
+            APP.owlCarousel();
+            APP.reservationForm();
+            APP.createGoogleMap();
+            APP.masonry();
             APP.parallax();
+            APP.counterNumbers();
+            APP.portfolio();
         </script>
 
     </body>
