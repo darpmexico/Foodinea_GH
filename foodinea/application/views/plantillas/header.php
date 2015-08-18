@@ -108,11 +108,12 @@
 
                                     </li>
                                     <li><a href="operators.html">Operators</a></li>
+                                    <?php echo anchor('about','Operators') ?>
                                 </ul>
                             </li>                      
                             <li><a href="#">Our destinations</a>
                                 <ul>
-                                    <li><a href="shop.html">Mexico</a></li>
+                                    <li><?php echo anchor('mexico','Mexico') ?></li>
                                     <li><a href="shop.html">Argentina</a></li>
                                     <li><a href="shop.html">Chile</a></li>
                                 </ul>

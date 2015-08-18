@@ -476,6 +476,10 @@ textarea {
   background: url('../img/content/img14.jpg') no-repeat center center;
   height: 350px;
 }
+.header.shop-header .header-img-mexico {
+  background: url('../img/content/burritos_mini.jpg') no-repeat;
+  height: 350px;
+}
 /* coming soon */
 #comingSoon {
   background: url('../img/content/img14.jpg') no-repeat center center;
