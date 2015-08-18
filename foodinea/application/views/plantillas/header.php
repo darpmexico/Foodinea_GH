@@ -103,7 +103,10 @@
                             <li class="active">
                                 <a href="/">Foodinea</a>
                                 <ul>
-                                    <li class="active"><a href="page-about.html">About</a></li>
+                                    <li class="active">
+                                        <?php echo anchor('about','About') ?>
+
+                                    </li>
                                     <li><a href="operators.html">Operators</a></li>
                                 </ul>
                             </li>                      
