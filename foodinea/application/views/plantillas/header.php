@@ -105,17 +105,17 @@
                                 <ul>
                                     <li class="active">
                                         <?php echo anchor('about','About') ?>
-
                                     </li>
-                                    <li><a href="operators.html">Operators</a></li>
-                                    <?php echo anchor('about','Operators') ?>
+                                    <li>
+                                        <?php echo anchor('operator','Operators') ?>
+                                    </li>
                                 </ul>
                             </li>                      
                             <li><a href="#">Our destinations</a>
                                 <ul>
+                                    <li><?php echo anchor('mexico','Argentina') ?></li>
+                                    <li><?php echo anchor('mexico','Chile') ?></li>
                                     <li><?php echo anchor('mexico','Mexico') ?></li>
-                                    <li><a href="shop.html">Argentina</a></li>
-                                    <li><a href="shop.html">Chile</a></li>
                                 </ul>
                             </li>
                             <li><a href="contact.html">Contact</a>

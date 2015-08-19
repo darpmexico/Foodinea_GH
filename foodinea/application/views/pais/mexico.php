@@ -484,44 +484,4 @@
         </div><!-- /#shop -->
 
 
-        <!-- ***** Footer ***** -->
-        <footer id="footer" class="footer">
-
-            <div class="overlay overlay-black-80"></div>
-
-            <div class="container container-inner">
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="footer-column"><span class="extra-bold">Foodinea</span></h2>
-                        <p class="footer-column">Foodinea is the Latin America leader platform to book tours and activities for Foodies platform. With us, you can book tours and activities in advance:  this way you get the best prices and you can plan your gastronomic adventure with the advantage of not needing to deal with cash once you're in your destination. 
-                        </p>
-                    </div><!-- /.-col-md-4 -->
-
-                    <div class="col-md-4">
-
-                        <h2 class="footer-column"><span class="extra-bold">Useful</span> <span class="light">links</span></h2>
-
-                        <ul class="useful-links">
-                            <li><a href="#">Mexico</li></a>
-                            <li><a href="#">Argentina</li></a>
-                            <li><a href="#">Chile</li></a>
-                            <li><a href="#">Operators</li></a>
-                        </ul>
-
-                    </div><!-- /.col-md-3 -->
-
-                    <div class="col-md-4">
-
-                        <h2 class="footer-column"><span class="extra-bold">Follow</span> <span class="light">us</span></h2>
-
-                            <div class="socialnet"><a href="#" target="_blank"><img src="assets/img/ico/Facebook_24px.png"  alt="Facebook"></a></div>
-                            <div class="socialnet"><a href="#" target="_blank"><img src="assets/img/ico/Pinterest_24px.png"  alt="Pinterest" ><a href="#" target="_blank"></a></div>
-                            <div class="socialnet"><a href="https://twitter.com/foodinea" target="_blank"><img src="assets/img/ico/Twitter_24px.png" alt="Tweeter"></a></div>
-                    </div><!-- /.col-md-3 -->
-
-
-
-                </div><!-- /.row -->
-
-            </div><!-- /.container-inner -->
+     
