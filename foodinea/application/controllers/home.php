@@ -23,7 +23,7 @@ class Home extends CI_Controller {
 		//$this->load->view('welcome_message');
 		$this->load->view('plantillas/header');
 		$this->load->view('plantillas/slide_header');
-		$this->load->view('plantillas/reservacion');
+		$this->load->view('plantillas/body');
 		$this->load->view('plantillas/footer');
 	}
 }
