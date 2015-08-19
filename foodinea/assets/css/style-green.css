@@ -173,7 +173,7 @@ h5 {
    -webkit-appearance: none;
  }
 .socialnet{
-  float:left;
+  float:none;
   padding:2px;
   margin-left: 20px;
   margin: 10px;
@@ -449,7 +449,7 @@ textarea {
 ==========================================================================*/
 /* footer */
 #footer {
-  background-image: url('../img/downloads/img2.jpg');
+  background-image: url('../img/downloads/img5.jpg');
   background-size: cover;
 }
 /* parallax */
@@ -4376,8 +4376,8 @@ a.btn-cart-xs span {
 // 26. Footer section
 ==========================================================================*/
 #footer {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   position: relative;
   background-color: #25292C;
   color: #d1d1d1;
