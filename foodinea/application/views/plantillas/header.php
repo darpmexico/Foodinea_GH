@@ -4,10 +4,10 @@
     <head>
 
         <meta charset="utf-8">
-        <title>Home | Foodinea</title>
+        <title>Foodinea</title>
 
-        <meta name="keywords" content="Foodinea, food, food blog, chef, cook, cooking, eat, food, meals, recipe theme, recipes theme, html5 theme, clean theme, fresh theme">
-        <meta name="author" content="bumbella">
+        <meta name="keywords" content="foodinea, food, tour, chef, cook, cooking, eat, meals">
+        <meta name="author" content="darp">
 
         <!-- Mobile Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -35,11 +35,26 @@
         <link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/apple-touch-icon-144x144.png"/>
 
     </head>
+
     <body id="pageTop">
+        <!-- Analytics code -->
 
-       
-
-        
+        <!-- ***** Theme switcher ***** 
+        <div class="theme-switcher" id="themeSwitcher">
+            <a href="#" class="toggle-button"><i class="fa fa-gear"></i></a>
+            <div class="inner">
+                <h3>Color skin:</h3>
+                <ul class="colors">
+                    <li><a href="#" data-color="blue" class="color-blue"></a></li>
+                    <li><a href="#" data-color="green" class="color-green"></a></li>
+                    <li><a href="#" data-color="orange" class="color-orange active"></a></li>
+                    <li><a href="#" data-color="purple" class="color-purple"></a></li>
+                    <li><a href="#" data-color="red" class="color-red"></a></li>
+                    <li><a href="#" data-color="yellow" class="color-yellow"></a></li>
+                </ul>
+            </div>
+        </div>
+        theme switcher -->
 
         <!-- ***** Page loader ***** -->
         <div class="page-loader">
@@ -49,7 +64,7 @@
             </div>
         </div><!-- /.page-loader -->
 
-        <!-- ***** Socialbar ***** -->
+        <!-- ***** Socialbar ***** 
         <div id="socialbar" class="socialbar socialbar-fixed socialbar-radius colorizesocial right hidden-xs">
             <ul>
                 <li><a class="socicon socicon-facebook" href="#" title="Facebook"></a></li>
@@ -58,7 +73,8 @@
                 <li><a class="socicon socicon-twitter" href="#" title="Twitter"></a></li>
                 <li><a class="socicon socicon-google" href="#" title="Google"></a></li>
             </ul>
-        </div><!-- /.socialbar -->
+        </div>
+         /.socialbar -->
 
 
         <!-- ***** Top Navigation ***** -->
@@ -72,60 +88,64 @@
 
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu-collapse">
                             <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                           
                         </button>
 
-                        <a class="btn-cart-xs visible-xs" href="#"><i class="fa fa-shopping-cart primary-color"></i><span>3</span></a>
+                        <!-- <a class="btn-cart-xs visible-xs" href="#"><i class="fa fa-shopping-cart primary-color"></i><span>3</span></a> -->
 
-                        <a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo-orange.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/logo/logo.jpg" class="img-responsive" alt="Foodinea"></img></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="top-menu-collapse">
 
                         <ul id="top-menu" class="nav navbar-nav navbar-left">
                             <li class="active">
-                                <a href="/">Page</a>
+                                <a href="/">Foodinea</a>
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="page-home2.html">Home 2</a></li>
-                                    <li><a href="page-about.html">About</a></li>
-                                    <li><a href="page-menucards.html">Menu cards</a></li>
-                                    <li><a href="page-coming-soon.html">Coming soon</a></li>
-                                    <li><a href="page-404.html">Page 404</a></li>
+                                    <li class="active">
+                                        <?php echo anchor('about','About') ?>
+
+                                    </li>
+                                    <li><a href="operators.html">Operators</a></li>
+                                    <?php echo anchor('about','Operators') ?>
+                                </ul>
+                            </li>                      
+                            <li><a href="#">Our destinations</a>
+                                <ul>
+                                    <li><?php echo anchor('mexico','Mexico') ?></li>
+                                    <li><a href="shop.html">Argentina</a></li>
+                                    <li><a href="shop.html">Chile</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a>
+                            </li>
+                            <li><a href="contact.html">Help</a>
+                                <ul>
+                                    <li><a href="empty.html">FAQ´s</a></li>
+                                    <li><a href="empty.html">Privacy Policy</a></li>
+                                    <li><a href="empty.html">Terms & Conditions</a></li>
                                 </ul>
                             </li>
                             <li>
+                                <a href="#" id="desktopSearchButton"><i class="fa fa-search"></i></a>
+                            </li>
+                            <!-- <li>
                                 <a href="/">Blog</a>
                                 <ul>
                                     <li><a href="blog.html">Blog</a></li>
                                     <li><a href="blog-single-post.html">Single post</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                                 <a href="/">Shop</a>
                                 <ul>
                                     <li><a href="shop.html">Shop</a></li>
                                     <li><a href="shop-item.html">Shop item</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            </li> -->
                         </ul><!-- /#top-menu -->
 
-                        <ul id="topIcons" class="nav navbar-nav navbar-right hidden-xs">
-                            <li>
-                                <a href="#" id="desktopSearchButton"><i class="fa fa-search"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-shopping-cart">
-                                    <i class="fa fa-shopping-cart"></i>
-                                    <span class="cart-number">5</span>
-                                </a>
-                            </li>
-                        </ul><!-- /#topIcons -->
 
                         <div class="visible-xs mobile-search">
                             <div class="input-group">
@@ -157,7 +177,3 @@
             </nav>
 
         </section><!-- /.top-navigation -->
-
-
-        
-

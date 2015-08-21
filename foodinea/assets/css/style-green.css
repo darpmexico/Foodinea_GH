@@ -152,6 +152,34 @@ h5 {
   font-weight: 500;
   color: #575A5C;
 }
+
+.row-up-index{
+  font-family: 'Raleway', sans-serif;
+  color: #FAFAFA;
+  text-align: center;
+  float: right;
+}
+
+.select-up-index{
+ background: rgba(255, 255, 255, 0.7);
+   width: 268px;
+   float: left;
+   margin-top: 10px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 2px;
+   -webkit-appearance: none;
+ }
+.socialnet{
+  float:none;
+  padding:2px;
+  margin-left: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
 a {
   color: #8dc63f;
   text-decoration: none;
@@ -421,12 +449,12 @@ textarea {
 ==========================================================================*/
 /* footer */
 #footer {
-  background-image: url('../img/content/img2.jpg');
+  background-image: url('../img/downloads/img5.jpg');
   background-size: cover;
 }
 /* parallax */
 #counterParallax {
-  background: url('../img/content/img15.jpg') repeat-y center center;
+  background: url('../img/downloads/img9.jpg') repeat-y center center;
 }
 #signUpNews {
   background: url('../img/content/img21.jpg') center center;
@@ -446,6 +474,10 @@ textarea {
 }
 .header.shop-header .header-img {
   background: url('../img/content/img14.jpg') no-repeat center center;
+  height: 350px;
+}
+.header.shop-header .header-img-mexico {
+  background: url('../img/content/burritos_mini.jpg') no-repeat;
   height: 350px;
 }
 /* coming soon */
@@ -3002,7 +3034,7 @@ a.socicon-disqus:hover,
 }
 @media (min-width: 992px) {
   #top-menu {
-    padding-left: 130px;
+    padding-right: 40px;
   }
 }
 #top-menu ul {
@@ -4344,8 +4376,8 @@ a.btn-cart-xs span {
 // 26. Footer section
 ==========================================================================*/
 #footer {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   position: relative;
   background-color: #25292C;
   color: #d1d1d1;
@@ -4426,6 +4458,36 @@ a.btn-cart-xs span {
     float: none !important;
     margin-bottom: 10px;
   }
+}
+
+.useful-links{
+  text-align: center;
+  color: #FAFAFA;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: 'Raleway', sans-serif;
+
+}
+#footer ul.useful-links li a:hover {
+  color: #8dc63f;
+}
+ul.useful-links li i {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: #d1d1d1;
+  border-radius: 100%;
+  color: #FAFAFA;
+  margin-right: 10px;
+  position: absolute;
+  top: -2px;
+  left: 0;
+}
+
+.footer-column{
+  text-align: center;
 }
 /*==========================================================================
 // 28. Theme switcher
