@@ -154,158 +154,163 @@
         </section><!-- /.top-navigation -->
 
 
+<HR>
+<HR>
+<HR>
+<HR>
+<HR>
 
 
-        <!-- ***** Contact form ***** -->
-        <section class="contact-form" id="contactForm">
-
-            <!-- <div class="google-maps" id="map-canvas"></div> -->
-<hr>
-<hr>
-            <div class="container">
-
+        <section id="contact" class="section">
+        <div class="container section-wrapper">
+            <div class="section-content">
                 <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title uppercase">Contactanos</h2>
 
-                    <div class="col-md-4">
-                    <hr>
-<hr>
-<hr>
+                        <p class="section-subtitle">
+                            Te gustaria disfrutar de alguno de nuestros tours?
+                        </p>
 
-                        <h1><span class="light">Our</span> <span class="extra-bold">Restaurants</span></h1>
-
-                        <p class="lead">Aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-
-                        <div class="contacts-wrapper">
-                            <ul class="contacts">
-                                <li><i class="fa fa-map-marker"></i>753 A 4th St, NY, USA</li>
-                                <li><i class="fa fa-phone"></i>+5 432-234-1234</li>
-                                <li><i class="fa fa-envelope"></i><a href="#">me@medomain.com</a></li>
-                            </ul>
-                        </div>
-                        <div class="socialbar socialbar-inner socialbar-radius colorizesocial">
-                            <ul>
-                                <li><a class="socicon socicon-facebook hvr-buzz-out" href="#" title="Facebook"></a></li>
-                                <li><a class="socicon socicon-youtube hvr-buzz-out" href="#" title="YouTube"></a></li>
-                                <li><a class="socicon socicon-pinterest hvr-buzz-out" href="#" title="Pinterest"></a></li>
-                                <li><a class="socicon socicon-twitter hvr-buzz-out" href="#" title="Twitter"></a></li>
-                                <li><a class="socicon socicon-google hvr-buzz-out" href="#" title="Google"></a></li>
-                            </ul>
-                        </div>
-
+                        <span class="divider center"></span>
                     </div>
-
-                    <div class="col-md-8">
-<hr>
-<hr><hr>
-<hr>
-                        <h1><span class="light">Contact</span> <span class="extra-bold">us</span></h1>
-
-                        <form name="contactForm" id="cntForm" method="post">
-
-                            <input type="text" name="cntCode" id="cntCode" class="form-control hidden" placeholder="" value="">
-
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name *" required="">
-                                </div>
-                                <div class="col-xs-6">
-                                    <input type="text" name="email" id="email" class="form-control" placeholder="E-mail *" required="">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <textarea name="cntMessage" id="cntMessage" class="form-control contact-message" rows="3"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="message">
-                                <span class="label label-lg label-success">Reservation has been sent</span>
-                            </div>
-
-                            <a class="btn btn-primary hvr-shutter-out-horizontal btn-send" href="#">Send reservation</a>
-
-                        </form>
-
-                    </div>
-
+                   
                 </div>
+              
+                
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                   <DIV class= "col-md-12">
+                       
+                        <form action="contact/send_mail.php" method="post" name="contact-form" id="contact-form" class="contact-form validate" role="form">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <div class="input-group input-group-lg">
+                                            <div class="input-group input-group-lg">
+                                                <input type="text" name="name" id="name" class="form-control required" placeholder="Nombre" autocomplete="off">
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                    
+                                    <div class="form-group">
+                                        <label>Tour</label>
 
-            </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" name="services[]" id="web-design" value="Web Design">
 
-        </section>
+                                            <label for="web-design">Taco Naco</label>
+                                        </div>
+                                        
+                                        
+                                        <div class="checkbox">
+                                            <input type="checkbox" name="services[]" id="branding" value="Branding">
 
+                                            <label for="branding">ChileChipotle</label>
+                                        </div>
+                                        
 
-        <!-- ***** Logos owl ***** -->
-        <section class="loc-wrapper" id="locWrapper">
+                                        <div class="checkbox">
+                                            <input type="checkbox" name="services[]" id="app-development" value="App Development">
 
-            <div class="container">
+                                            <label for="app-development">Argentina Gelatinas</label>
+                                        </div>
 
-                    <div class="logos-owl-carousel">
+                                        <div class="checkbox">
+                                            <input type="checkbox" name="services[]" id="consulting" value="Consulting">
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo1.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                                            <label for="consulting">Vino Constantino</label>
+                                        </div>
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo2.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="form-group">
+                                        <label>Pais :</label>
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo3.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                                        <div class="radio">
+                                            <input type="radio" name="project_class" id="small" value="Small">
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo4.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                                            <label for="small">México City</label>
+                                        </div>
+                                       
+                                       
+                                        <div class="radio">
+                                            <input type="radio" name="project_class" id="medium" value="Medium">
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo5.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                                            <label for="medium">Chile</label>
+                                        </div>
+                                       
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo6.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                                        <div class="radio">
+                                            <input type="radio" name="project_class" id="big" value="Big (> 10,000)">
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo7.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                                            <label for="big">Argentina</label>
+                                        </div>
+                                       
+                                    </div>
+                                 
+                                </div>
+                               
+                                
+                                <div class="col-md-7">
+                                    <div class="form-group">
+                                        <div class="input-group input-group-lg">
+                                            <input type="email" name="email" id="email" class="form-control required email" placeholder="Email" autocomplete="off">
+                                        </div>
+                                       
+                                    </div>
+                                  
+                                    
+                                    <div class="form-group">
+                                        <div class="input-group input-group-lg">
+                                            <select name="subject" id="subject" class="select2 required" style="width: 100%">
+                                                <option value="Me gustaria Tomar un tour">Me gustaria Tomar un tour</option>
+                                                <option value="Quisiera ser Socio">Quisiera ser Socio</option>
+                                                <option value="Me gustaria Saber sobre las promociones">Me gustaria Saber sobre las promociones</option>
+                                                <option value="Solo para decir Hola!">Solo para decir Hola!</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                   
+                                    
+                                    <div class="form-group">
+                                        <div class="input-group input-group-lg">
+                                            <textarea name="message" id="message" class="form-control required" placeholder="Mensaje"></textarea>
+                                        </div>
+                                        
+                                    </div>
+                                   
+                                </div>
+                               
+                            </div>
+                           
 
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo1.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
-
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo2.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
-
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo3.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
-
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo4.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
-
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo5.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
-
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo6.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
-
-                        <div class="item margin-10">
-                            <a href=""><img src="assets/img/content/logo7.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
-                        </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button id="submit" type="submit">Enviar</button>
+                                    </div>
+                                   
+                                </div>
+                               
+                            </div>
+                         
+                        </form>
+                       
 
                     </div>
-
-
-            </div><!-- /.container -->
-
-        </section><!-- /.logos-owl-carousel-wrapper -->
-
+                   
+                </div>
+               
+            </div>
+            
+        </div>
+       
+    </section>
+    
+    </DIV>
 
         <!-- ***** Footer ***** -->
         <footer id="footer" class="footer">
