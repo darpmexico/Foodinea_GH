@@ -9,7 +9,7 @@
                     <div class="text-center"><img class="img-resposive" src="assets/img/flag/mex.png" height="90" width="90" alt=""></div>
                     <br>
                     <div class="text-center">
-                        
+
                         <a href="#" class="btn btn-primary hvr-shutter-out-horizontal">More</a>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                         </div>
                     </div><!-- /.nav-side-menu -->
 
-                    
+
 
 
                 </div>
@@ -494,7 +494,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <h2 class="footer-column"><span class="extra-bold">Foodinea</span></h2>
-                        <p class="footer-column">Foodinea is the Latin America leader platform to book tours and activities for Foodies platform. With us, you can book tours and activities in advance:  this way you get the best prices and you can plan your gastronomic adventure with the advantage of not needing to deal with cash once you're in your destination. 
+                        <p class="footer-column">Foodinea is the Latin America leader platform to book tours and activities for Foodies platform. With us, you can book tours and activities in advance:  this way you get the best prices and you can plan your gastronomic adventure with the advantage of not needing to deal with cash once you're in your destination.
                         </p>
                     </div><!-- /.-col-md-4 -->
 
