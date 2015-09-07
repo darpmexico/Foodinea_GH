@@ -4,10 +4,10 @@
     <head>
 
         <meta charset="utf-8">
-        <title>Foodinea</title>
+        <title>Pistacia - Chef & Food HTML5 Template</title>
 
-        <meta name="keywords" content="foodinea, food, tour, chef, cook, cooking, eat, meals">
-        <meta name="author" content="darp">
+        <meta name="keywords" content="pistaciatheme, pistacia theme, food blog, chef, cook, cooking, eat, food, meals, recipe theme, recipes theme, html5 theme, clean theme, fresh theme">
+        <meta name="author" content="bumbella">
 
         <!-- Mobile Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,11 +16,9 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/css/bootstrap.css" />
         <link rel="stylesheet" href="assets/css/font-awesome.css" />
-        <link rel="stylesheet" href="assets/css/flexslider.css" />
         <link rel="stylesheet" href="assets/css/socicons.css" />
         <link rel="stylesheet" href="assets/css/hover.css" />
         <link rel="stylesheet" href="assets/css/animate.css" />
-        <link rel="stylesheet" href="assets/css/owlcarousel.css" />
         <link rel="stylesheet" href="assets/css/style-green.css" />
 
         <!-- Fonts -->
@@ -33,14 +31,50 @@
         <link rel="apple-touch-icon" sizes="72x72" href="assets/img/ico/apple-touch-icon-72x72.png"/>
         <link rel="apple-touch-icon" sizes="114x114" href="assets/img/ico/apple-touch-icon-114x114.png"/>
         <link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/apple-touch-icon-144x144.png"/>
-    </head>
 
+    </head>
     <body id="pageTop">
 
         <!-- Analytics code -->
 
         <!-- ***** Theme switcher ***** -->
-       
+        <div class="theme-switcher" id="themeSwitcher">
+            <a href="#" class="toggle-button"><i class="fa fa-gear"></i></a>
+            <div class="inner">
+                <h3>Color skin:</h3>
+                <ul class="colors">
+                    <li><a href="#" data-color="blue" class="color-blue"></a></li>
+                    <li><a href="#" data-color="green" class="color-green"></a></li>
+                    <li><a href="#" data-color="orange" class="color-orange active"></a></li>
+                    <li><a href="#" data-color="purple" class="color-purple"></a></li>
+                    <li><a href="#" data-color="red" class="color-red"></a></li>
+                    <li><a href="#" data-color="yellow" class="color-yellow"></a></li>
+                </ul>
+            </div>
+        </div><!-- /.theme switcher -->
+
+        <!-- ***** Page loader ***** -->
+        <div class="page-loader">
+            <div class="loading">
+                <div class="loading-spin"></div>
+                <span>Loading...</span>
+            </div>
+        </div><!-- /.page-loader -->
+
+
+        <!-- ***** Socialbar ***** -->
+        <div id="socialbar" class="socialbar socialbar-fixed socialbar-radius colorizesocial right hidden-xs">
+            <ul>
+                <li><a class="socicon socicon-facebook" href="#" title="Facebook"></a></li>
+                <li><a class="socicon socicon-youtube" href="#" title="YouTube"></a></li>
+                <li><a class="socicon socicon-pinterest" href="#" title="Pinterest"></a></li>
+                <li><a class="socicon socicon-twitter" href="#" title="Twitter"></a></li>
+                <li><a class="socicon socicon-google" href="#" title="Google"></a></li>
+            </ul>
+        </div><!-- /.socialbar -->
+
+
+        <!-- ***** Top Navigation ***** -->
         <section id="topNavigation" class="top-navigation">
 
             <nav class="navbar navbar-default" role="navigation">
@@ -51,60 +85,60 @@
 
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu-collapse">
                             <span class="sr-only">Toggle navigation</span>
-                           
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
                         </button>
 
-                        <!-- <a class="btn-cart-xs visible-xs" href="#"><i class="fa fa-shopping-cart primary-color"></i><span>3</span></a> -->
+                        <a class="btn-cart-xs visible-xs" href="#"><i class="fa fa-shopping-cart primary-color"></i><span>3</span></a>
 
-                        <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/logo/logo.jpg" class="img-responsive" alt="Foodinea"></img></a>
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo-orange.png" class="img-responsive" alt="Pistacia Restaurant And Food Template"></a>
+
                     </div>
 
                     <div class="collapse navbar-collapse" id="top-menu-collapse">
 
                         <ul id="top-menu" class="nav navbar-nav navbar-left">
                             <li class="active">
-                                <a href="/">Foodinea</a>
+                                <a href="/">Page</a>
                                 <ul>
-                                    <li class="active"><a href="page-about.html">About</a></li>
-                                    <li><a href="operators.html">Operators</a></li>
-                                </ul>
-                            </li>                      
-                            <li><a href="#">Our destinations</a>
-                                <ul>
-                                    <li><a href="shop.html">Mexico</a></li>
-                                    <li><a href="shop.html">Argentina</a></li>
-                                    <li><a href="shop.html">Chile</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a>
-                            </li>
-                            <li><a href="contact.html">Help</a>
-                                <ul>
-                                    <li><a href="empty.html">FAQ´s</a></li>
-                                    <li><a href="empty.html">Privacy Policy</a></li>
-                                    <li><a href="empty.html">Terms & Conditions</a></li>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="page-home2.html">Home 2</a></li>
+                                    <li><a href="page-about.html">About</a></li>
+                                    <li><a href="page-menucards.html">Menu cards</a></li>
+                                    <li><a href="page-coming-soon.html">Coming soon</a></li>
+                                    <li><a href="page-404.html">Page 404</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#" id="desktopSearchButton"><i class="fa fa-search"></i></a>
-                            </li>
-                            <!-- <li>
                                 <a href="/">Blog</a>
                                 <ul>
                                     <li><a href="blog.html">Blog</a></li>
                                     <li><a href="blog-single-post.html">Single post</a></li>
                                 </ul>
-                            </li> -->
-                            <!-- <li>
+                            </li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li>
                                 <a href="/">Shop</a>
                                 <ul>
                                     <li><a href="shop.html">Shop</a></li>
                                     <li><a href="shop-item.html">Shop item</a></li>
                                 </ul>
-                            </li> -->
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul><!-- /#top-menu -->
 
+                        <ul id="topIcons" class="nav navbar-nav navbar-right hidden-xs">
+                            <li>
+                                <a href="#" id="desktopSearchButton"><i class="fa fa-search"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-shopping-cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="cart-number">5</span>
+                                </a>
+                            </li>
+                        </ul><!-- /#topIcons -->
 
                         <div class="visible-xs mobile-search">
                             <div class="input-group">
@@ -136,7 +170,6 @@
             </nav>
 
         </section><!-- /.top-navigation -->
-
 
 
         <!-- ***** Header ***** -->
@@ -172,35 +205,120 @@
             <div class="container container-inner">
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="footer-column"><span class="extra-bold">Foodinea</span></h2>
-                        <p class="footer-column">Foodinea is the Latin America leader platform to book tours and activities for Foodies platform. With us, you can book tours and activities in advance:  this way you get the best prices and you can plan your gastronomic adventure with the advantage of not needing to deal with cash once you're in your destination. 
-                        </p>
-                    </div><!-- /.-col-md-4 -->
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
-                        <h2 class="footer-column"><span class="extra-bold">Useful</span> <span class="light">links</span></h2>
+                        <h2><span class="extra-bold">Other</span> <span class="light">Said</span></h2>
 
-                        <ul class="useful-links">
-                            <li><a href="#">Mexico</li></a>
-                            <li><a href="#">Argentina</li></a>
-                            <li><a href="#">Chile</li></a>
-                            <li><a href="#">Operators</li></a>
+                        <div id="carousel-othersaid" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner" role="listbox">
+
+                                <div class="item active">
+
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+                                            <figure class="figure-hubba figure-circle">
+                                                <img class="img-responsive" src="assets/img/content/thumb10.jpg" alt="Pistacia Restaurant And Food Template">
+                                                <div class="overlay overlay-black-70"></div>
+                                                <figcaption class="figcaption">
+                                                    <a class="icon"><i class="fa fa-search"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+
+                                        <div class="col-sm-8">
+                                            <i class="fa fa-quote-left"></i>
+                                            ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right"></i>
+                                            <br><br><small>Josephine Walker</small>
+                                        </div>
+
+                                    </div>
+
+                                </div><!-- /.item -->
+
+                                <div class="item">
+
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <figure class="figure-hubba figure-circle">
+                                                <img class="img-responsive" src="assets/img/content/thumb10.jpg" alt="Pistacia Restaurant And Food Template">
+                                                <div class="overlay overlay-black-70"></div>
+                                                <figcaption class="figcaption">
+                                                    <a class="icon"><i class="fa fa-search"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <i class="fa fa-quote-left"></i>
+                                            ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right"></i>
+                                            <br><br><small>Josephine Walker</small>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /.item -->
+
+                                <div class="item">
+
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <figure class="figure-hubba figure-circle">
+                                                <img class="img-responsive" src="assets/img/content/thumb10.jpg" alt="Pistacia Restaurant And Food Template">
+                                                <div class="overlay overlay-black-70"></div>
+                                                <figcaption class="figcaption">
+                                                    <a class="icon"><i class="fa fa-search"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <i class="fa fa-quote-left"></i>
+                                            ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right"></i>
+                                            <br><br><small>Josephine Walker</small>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /.item -->
+
+                            </div><!-- /.carousel-inner -->
+
+                        </div><!-- /.carousel-othersaid -->
+
+                    </div><!-- /.-col-md-3 -->
+
+                    <div class="col-md-3">
+
+                        <h2><span class="extra-bold">Operation</span> <span class="light">Time</span></h2>
+
+                        <ul class="contacts">
+                            <li><i class="fa fa-clock-o"></i> Monday to Thuesday <span class="bold clock">6:00 - 18:00</span></li>
+                            <li><i class="fa fa-clock-o"></i> Friday to Saturdays <span class="bold clock">12:00 - 22:00</span></li>
+                            <li><i class="fa fa-clock-o"></i> Sundays <span class="bold clock">closed</span></li>
                         </ul>
 
                     </div><!-- /.col-md-3 -->
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
-                        <h2 class="footer-column"><span class="extra-bold">Follow</span> <span class="light">us</span></h2>
+                        <h2><span class="extra-bold">Contact</span> <span class="light">Us</span></h2>
 
-                            <div class="socialnet"><a href="#" target="_blank"><img src="assets/img/ico/Facebook_24px.png"  alt="Facebook"></a></div>
-                            <div class="socialnet"><a href="#" target="_blank"><img src="assets/img/ico/Pinterest_24px.png"  alt="Pinterest" ><a href="#" target="_blank"></a></div>
-                            <div class="socialnet"><a href="https://twitter.com/foodinea" target="_blank"><img src="assets/img/ico/Twitter_24px.png" alt="Tweeter"></a></div>
+                        <ul class="contacts">
+                            <li><i class="fa fa-map-marker"></i>753 A 4th St, NY, USA</li>
+                            <li><i class="fa fa-phone"></i>+5 432-234-1234</li>
+                            <li><i class="fa fa-envelope"></i><a href="#">me@medomain.com</a></li>
+                        </ul>
+
                     </div><!-- /.col-md-3 -->
 
+                    <div class="col-md-3 about-us">
 
+                        <h2><span class="extra-bold">About</span> <span class="light">Pistacia</span></h2>
+
+                        <div class="">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        </div>
+
+                    </div><!-- /.about-us -->
 
                 </div><!-- /.row -->
 
@@ -209,6 +327,29 @@
         </footer>
 
 
+        <!-- ***** Bottom bar ***** -->
+        <section class="bottom-bar" id="bottomBar">
+
+            <a href="#pageTop" class="btn btn-white scroll-to"><i class="fa fa-chevron-up"></i></a>
+
+            <div class="container">
+
+                <div class="pull-left">
+                    <div class="padding-top-20"><span class="small">Design by Bumbella - Te discere erroribus sed.</span></div>
+                </div>
+
+                <div class="pull-right">
+                    <ul class="clear bottom-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+
+            </div><!-- /.container -->
+
+        </section><!-- /.bottom-bar -->
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

@@ -4,10 +4,10 @@
     <head>
 
         <meta charset="utf-8">
-        <title>Foodinea</title>
+        <title>Pistacia - Chef & Food HTML5 Template</title>
 
-        <meta name="keywords" content="foodinea, food, tour, chef, cook, cooking, eat, meals">
-        <meta name="author" content="darp">
+        <meta name="keywords" content="pistaciatheme, pistacia theme, food blog, chef, cook, cooking, eat, food, meals, recipe theme, recipes theme, html5 theme, clean theme, fresh theme">
+        <meta name="author" content="bumbella">
 
         <!-- Mobile Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,7 +16,6 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/css/bootstrap.css" />
         <link rel="stylesheet" href="assets/css/font-awesome.css" />
-        <link rel="stylesheet" href="assets/css/flexslider.css" />
         <link rel="stylesheet" href="assets/css/socicons.css" />
         <link rel="stylesheet" href="assets/css/hover.css" />
         <link rel="stylesheet" href="assets/css/animate.css" />
@@ -35,49 +34,9 @@
         <link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/apple-touch-icon-144x144.png"/>
 
     </head>
-
     <body id="pageTop">
+
         <!-- Analytics code -->
-
-        <!-- ***** Theme switcher ***** 
-        <div class="theme-switcher" id="themeSwitcher">
-            <a href="#" class="toggle-button"><i class="fa fa-gear"></i></a>
-            <div class="inner">
-                <h3>Color skin:</h3>
-                <ul class="colors">
-                    <li><a href="#" data-color="blue" class="color-blue"></a></li>
-                    <li><a href="#" data-color="green" class="color-green"></a></li>
-                    <li><a href="#" data-color="orange" class="color-orange active"></a></li>
-                    <li><a href="#" data-color="purple" class="color-purple"></a></li>
-                    <li><a href="#" data-color="red" class="color-red"></a></li>
-                    <li><a href="#" data-color="yellow" class="color-yellow"></a></li>
-                </ul>
-            </div>
-        </div>
-        theme switcher -->
-
-        <!-- ***** Page loader ***** -->
-        <div class="page-loader">
-            <div class="loading">
-                <div class="loading-spin"></div>
-                <span>Loading...</span>
-            </div>
-        </div><!-- /.page-loader -->
-
-        <!-- ***** Socialbar ***** 
-        <div id="socialbar" class="socialbar socialbar-fixed socialbar-radius colorizesocial right hidden-xs">
-            <ul>
-                <li><a class="socicon socicon-facebook" href="#" title="Facebook"></a></li>
-                <li><a class="socicon socicon-youtube" href="#" title="YouTube"></a></li>
-                <li><a class="socicon socicon-pinterest" href="#" title="Pinterest"></a></li>
-                <li><a class="socicon socicon-twitter" href="#" title="Twitter"></a></li>
-                <li><a class="socicon socicon-google" href="#" title="Google"></a></li>
-            </ul>
-        </div>
-         /.socialbar -->
-
-
-        <!-- ***** Top Navigation ***** -->
         <section id="topNavigation" class="top-navigation">
 
             <nav class="navbar navbar-default" role="navigation">
@@ -88,13 +47,15 @@
 
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu-collapse">
                             <span class="sr-only">Toggle navigation</span>
-                           
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
                         </button>
 
                         <!-- <a class="btn-cart-xs visible-xs" href="#"><i class="fa fa-shopping-cart primary-color"></i><span>3</span></a> -->
 
-                        <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/logo/logo.jpg" class="img-responsive" alt="Foodinea"></img></a>
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo.png" class="img-responsive" alt="Foodinea"></a>
+
                     </div>
 
                     <div class="collapse navbar-collapse" id="top-menu-collapse">
@@ -104,7 +65,7 @@
                                 <a href="/">Foodinea</a>
                                 <ul>
                                     <li class="active"><a href="page-about.html">About</a></li>
-                                    <li><a href="operators.html">Operators</a></li>
+                                    <li><a href="#">Operators</a></li>
                                 </ul>
                             </li>                      
                             <li><a href="#">Our destinations</a>
@@ -116,15 +77,12 @@
                             </li>
                             <li><a href="contact.html">Contact</a>
                             </li>
-                            <li><a href="contact.html">Help</a>
+                            <li><a href="#">Help</a>
                                 <ul>
-                                    <li><a href="empty.html">FAQ´s</a></li>
-                                    <li><a href="empty.html">Privacy Policy</a></li>
-                                    <li><a href="empty.html">Terms & Conditions</a></li>
+                                    <li><a href="#">FAQ´s</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
                                 </ul>
-                            </li>
-                            <li>
-                                <a href="#" id="desktopSearchButton"><i class="fa fa-search"></i></a>
                             </li>
                             <!-- <li>
                                 <a href="/">Blog</a>
@@ -142,6 +100,17 @@
                             </li> -->
                         </ul><!-- /#top-menu -->
 
+                        <ul id="topIcons" class="nav navbar-nav navbar-right hidden-xs">
+                            <li>
+                                <a href="#" id="desktopSearchButton"><i class="fa fa-search"></i></a>
+                            </li>
+                            <!--<li>
+                                <a href="#" class="btn-shopping-cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="cart-number">5</span>
+                                </a>
+                            </li>-->
+                        </ul><!-- /#topIcons -->
 
                         <div class="visible-xs mobile-search">
                             <div class="input-group">
@@ -178,19 +147,23 @@
         <!-- ***** Header ***** -->
         <header class="header default-header">
 
-             <div class="container-fluid breadcrumb-container">
-            <div class="container">
-                <ol class="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li class="active">Choco Tour</li>
-                </ol>
+            <div class="header-img">
+                <div class="overlay overlay-black-70"></div>
             </div>
-        </div>
 
         </header>
 
 
+        <!-- ***** Breadcrumb ***** -->
+        <div class="container-fluid breadcrumb-container">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li class="active">Shop items</li>
+                </ol>
+            </div>
+        </div>
 
 
         <!-- ***** Shop item ***** -->
@@ -248,10 +221,9 @@
 
                     <div class="col-md-6">
 
-                        <h1><span class="light">Choco </span> <span class="extra-bold">Tour.</span></h1>
+                        <h1><span class="light">Chicken</span> <span class="extra-bold">Burger</span></h1>
 
-                        <p class="lead"> La ruta del cacao y del chocolate en el
- Centro Histórico</p>
+                        <p class="lead">Aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                         <p class="small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
                         <a href="#" class="add-to-favourite"><i class="fa fa-heart"></i> Add to favourites</a>
@@ -272,9 +244,22 @@
 
                             <span class="price" id="itemPrice">$123</span>
 
-                            
+                            <div class="input-group spinner">
 
-                            <a class="btn btn-primary btn-buy hvr-shutter-out-horizontal"><i class="fa fa-calendar"></i> Reservation</a>
+                                <input type="text" class="form-control" value="1">
+
+                                <div class="input-group-btn-vertical">
+                                    <button class="btn btn-primary btn-inc">
+                                        <i class="fa fa-caret-up"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-dec">
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <a class="btn btn-primary btn-buy hvr-shutter-out-horizontal"><i class="fa fa-shopping-cart"></i> Add to cart</a>
 
                         </div>
 
@@ -292,40 +277,242 @@
                         <div role="tabpanel" class="tabpanel">
 
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">DETAILS</a></li>
-                                <li role="presentation"><a href="#description" aria-controls="description" role="tab" data-toggle="tab">HIGHLIGHTS</a></li>
-                                <li role="presentation"><a href="#additional" aria-controls="additional" role="tab" data-toggle="tab">HIGHLIGHTS</a></li>
-                                <li role="presentation"><a href="#additional" aria-controls="additional" role="tab" data-toggle="tab">WHAT ́S INCLUDES? </a></li>
-                                <li role="presentation"><a href="#additional" aria-controls="additional" role="tab" data-toggle="tab">IMPORTANT INFORMATION </a></li>
+                                <li role="presentation" class="active"><a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Reviews (5)</a></li>
+                                <li role="presentation"><a href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
+                                <li role="presentation"><a href="#additional" aria-controls="additional" role="tab" data-toggle="tab">Additional info</a></li>
                             </ul><!-- /.nav-tabs -->
 
                             <div class="tab-content">
 
-                               
-                                 <div role="tabpanel" class="tab-pane active" id="reviews">
-                                    <h2>Chicken Burger</h2>
-                                    <p class="lead">Aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div role="tabpanel" class="tab-pane active" id="reviews">
 
-                                    <div class="row">
+                                    <ul class="comment-list">
 
-                                        <div class="col-md-6">
-                                            <h3>Description text</h3>
-                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-                                        </div>
+                                        <li class="item clearfix">
 
-                                        <div class="col-md-6">
-                                            <h3>Using</h3>
-                                            <ul class="list-check">
-                                                <li>Aliquyam erat, sed diam</li>
-                                                <li>Lorem ipsum dolor</li>
-                                                <li>Consetetur sadipscing</li>
-                                                <li>Vero eos et accusam</li>
-                                                <li>Erat, sed diam</li>
-                                            </ul>
-                                        </div>
+                                            <div class="col-sm-3">
+                                                <figure>
+                                                    <img src="assets/img/content/thumb6.jpg" alt="Pistacia Restaurant And Food Template" class="img-circle img-responsive">
+                                                </figure>
+                                            </div>
 
-                                    </div>
-                                </div>
+                                            <div class="col-sm-9">
+
+                                                <div class="comment-list-inner">
+
+                                                    <h5 class="comment-name">Porco Bore</h5>
+
+                                                    <div class="clearfix">
+
+                                                        <span class="comment-date pull-left">Januar 18, 2015</span>
+
+                                                        <div class="comment-rate pull-right">
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                        </div><!-- /.item-rate -->
+
+                                                    </div>
+
+                                                    <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, at, recusandae. Dolores illo, repellat reiciendis minima qui nesciunt quis, ad.</p>
+
+                                                    <a href="#"><span class="comment-reply"><i class="fa fa-mail-reply"></i> Reply</span></a>
+
+                                                </div><!-- /.comment-list-inner -->
+
+                                            </div>
+
+                                        </li><!-- /.item -->
+
+                                        <li class="item sub-item clearfix">
+
+                                            <div class="col-sm-3">
+                                                <figure>
+                                                    <img src="assets/img/content/thumb1.jpg" alt="Pistacia Restaurant And Food Template" class="img-circle img-responsive">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-sm-9">
+
+                                                <div class="comment-list-inner">
+
+                                                    <h5 class="comment-name">Josephine Sky</h5>
+
+                                                    <div class="clearfix">
+
+                                                        <span class="comment-date pull-left">Januar 18, 2015</span>
+
+                                                        <div class="comment-rate pull-right">
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                        </div><!-- /.item-rate -->
+
+                                                    </div>
+
+                                                    <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, at, recusandae. Dolores illo, repellat reiciendis minima qui nesciunt quis, ad.</p>
+
+                                                    <a href="#"><span class="comment-reply"><i class="fa fa-mail-reply"></i> Reply</span></a>
+
+                                                </div><!-- /.comment-list-inner -->
+
+                                            </div>
+
+                                        </li><!-- /.item -->
+
+                                        <li class="item sub-item clearfix">
+
+                                            <div class="col-sm-3">
+                                                <figure>
+                                                    <img src="assets/img/content/thumb2.jpg" alt="Pistacia Restaurant And Food Template" class="img-circle img-responsive">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-sm-9">
+
+                                                <div class="comment-list-inner">
+
+                                                    <h5 class="comment-name">Red Hill</h5>
+
+                                                    <div class="clearfix">
+
+                                                        <span class="comment-date pull-left">Januar 18, 2015</span>
+
+                                                        <div class="comment-rate pull-right">
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                        </div><!-- /.item-rate -->
+
+                                                    </div>
+
+                                                    <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, at, recusandae. Dolores illo, repellat reiciendis minima qui nesciunt quis, ad.</p>
+
+                                                    <a href="#"><span class="comment-reply"><i class="fa fa-mail-reply"></i> Reply</span></a>
+
+                                                </div><!-- /.comment-list-inner -->
+
+                                            </div>
+
+                                        </li><!-- /.item -->
+
+                                        <li class="item clearfix">
+
+                                            <div class="col-sm-3">
+                                                <figure>
+                                                    <img src="assets/img/content/thumb3.jpg" alt="Pistacia Restaurant And Food Template" class="img-circle img-responsive">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-sm-9">
+
+                                                <div class="comment-list-inner">
+
+                                                    <h5 class="comment-name">Tubby Bear</h5>
+
+                                                    <div class="clearfix">
+
+                                                        <span class="comment-date pull-left">Januar 18, 2015</span>
+
+                                                        <div class="comment-rate pull-right">
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                        </div><!-- /.item-rate -->
+
+                                                    </div>
+
+                                                    <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, at, recusandae. Dolores illo, repellat reiciendis minima qui nesciunt quis, ad.</p>
+
+                                                    <a href="#"><span class="comment-reply"><i class="fa fa-mail-reply"></i> Reply</span></a>
+
+                                                </div><!-- /.comment-list-inner -->
+
+                                            </div>
+
+                                        </li><!-- /.item -->
+
+                                        <li class="item clearfix">
+
+                                            <div class="col-sm-3">
+                                                <figure>
+                                                    <img src="assets/img/content/thumb4.jpg" alt="Pistacia Restaurant And Food Template" class="img-circle img-responsive">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-sm-9">
+
+                                                <div class="comment-list-inner">
+
+                                                    <h5 class="comment-name">Hammy Swinub</h5>
+
+                                                    <div class="clearfix">
+
+                                                        <span class="comment-date pull-left">Januar 18, 2015</span>
+
+                                                        <div class="comment-rate pull-right">
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                            <span class="fa fa-star-o"></span>
+                                                        </div><!-- /.item-rate -->
+
+                                                    </div>
+
+                                                    <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, at, recusandae. Dolores illo, repellat reiciendis minima qui nesciunt quis, ad.</p>
+
+                                                    <a href="#"><span class="comment-reply"><i class="fa fa-mail-reply"></i> Reply</span></a>
+
+                                                </div><!-- /.comment-list-inner -->
+
+                                            </div>
+
+                                        </li><!-- /.item -->
+
+                                    </ul><!-- /.comment-list -->
+
+                                    <h1 class="text-center"><span class="light">Write</span> <span class="extra-bold">review</span></h1>
+
+                                    <form name="reviewForm" id="rvwForm" method="post">
+
+                                        <input type="text" name="rvwCode" id="rvwCode" class="form-control hidden" placeholder="" value="">
+
+                                        <div class="row">
+
+                                            <div class="col-xs-6">
+                                                <input type="text" name="name" id="name" class="form-control" placeholder="Name *" required="">
+                                            </div>
+
+                                            <div class="col-xs-6">
+                                                <input type="text" name="email" id="email" class="form-control" placeholder="E-mail *" required="">
+                                            </div>
+
+                                        </div><!-- /.row -->
+
+                                        <div class="row">
+
+                                            <div class="col-xs-12">
+                                                <textarea name="message" id="message" class="form-control contact-message" rows="3"></textarea>
+                                            </div>
+
+                                        </div><!-- /.row -->
+
+                                        <div class="message"></div>
+
+                                        <a class="btn btn-primary hvr-shutter-out-horizontal btn-send" href="#">Send review</a>
+
+                                    </form>
+
+                                </div><!-- /.tab-pane -->
 
                                 <div role="tabpanel" class="tab-pane" id="description">
                                     <h2>Chicken Burger</h2>
@@ -403,107 +590,7 @@
         </section><!-- /.shop-item -->
 
 
-
-         <!-- ***** Reservation ***** -->
-        <section id="reservation">
-
-            <div class="overlay overlay-black-90"></div>
-            <div class="plate"><img src="assets/img/content/thumb11.png" alt="Pistacia Restaurant And Food Template"></div>
-
-            <div class="container container-inner">
-
-                <form name="reservationForm" id="rsvForm" method="post">
-
-                    <div class="reservation-inner">
-
-                        <div class="collapse in" id="reservationForm">
-                            <div class="clearfix">
-                                <div class="col-md-6 fadeInLeft-ifAppeared">
-
-                                    <h1><span class="light"><i class="fa fa-calendar"></i> Reservation</span> <span class="extra-bold">form</span></h1>
-
-                                    <input type="text" name="rsrvCode" id="rsrvCode" class="form-control hidden" placeholder="" value="">
-
-                                    <div class="row">
-                                        <div class="col-xs-6">
-                                            <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name *" required>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name *" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-xs-6">
-                                            <input type="text" name="email" id="email" class="form-control" placeholder="E-mail *" required>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone *" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-xs-6">
-                                            <input type="text" class="form-control" name="guestNumber" id="guestNumber" placeholder="Guest number" required>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <div class="col-xs-6">
-                                                <input type="text" class="form-control hidden" name="reservationDate" id="reservationDate" placeholder="" required>
-                                            </div>
-                                            <select class="form-control" name="reservationTime" id="reservationTime">
-                                                <option>12:00</option>
-                                                <option>12:30</option>
-                                                <option>13:00</option>
-                                                <option>13:30</option>
-                                                <option>14:00</option>
-                                                <option>14:30</option>
-                                                <option>15:00</option>
-                                                <option>15:30</option>
-                                                <option>16:00</option>
-                                                <option>16:30</option>
-                                                <option>17:00</option>
-                                                <option>17:30</option>
-                                                <option>18:00</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-xs-12">
-                                            <textarea name="reservationMessage" id="reservationMessage" class="form-control reservation-message" rows="3"></textarea>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6 fadeInRight-ifAppeared">
-                                    <h1><span class="light">Select</span> <span class="extra-bold">date</span></h1>
-                                    <div id="datepicker" class="datepicker-dark"></div>
-                                </div>
-
-                                <div class="col-md-12 animated fadeIn">
-
-                                    <a class="btn btn-transparent hvr-shutter-out-horizontal btn-send">Send reservation</a>
-                                    <div class="message">
-                                        <span class="label label-lg label-success">Reservation has been sent</span>
-                                    </div>
-
-                                </div>
-
-                            </div><!-- /.clearfix -->
-
-                        </div><!-- /#reservationForm -->
-
-                    </div><!-- /.reservation-inner -->
-
-                </form>
-
-            </div><!-- /.container -->
-
-        </section><!-- /#reservation -->
-
-
-              <!-- ***** Footer ***** -->
+        <!-- ***** Footer ***** -->
         <footer id="footer" class="footer">
 
             <div class="overlay overlay-black-80"></div>
@@ -511,35 +598,120 @@
             <div class="container container-inner">
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="footer-column"><span class="extra-bold">Foodinea</span></h2>
-                        <p class="footer-column">Foodinea is the Latin America leader platform to book tours and activities for Foodies platform. With us, you can book tours and activities in advance:  this way you get the best prices and you can plan your gastronomic adventure with the advantage of not needing to deal with cash once you're in your destination. 
-                        </p>
-                    </div><!-- /.-col-md-4 -->
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
-                        <h2 class="footer-column"><span class="extra-bold">Useful</span> <span class="light">links</span></h2>
+                        <h2><span class="extra-bold">Other</span> <span class="light">Said</span></h2>
 
-                        <ul class="useful-links">
-                            <li><a href="#">Mexico</li></a>
-                            <li><a href="#">Argentina</li></a>
-                            <li><a href="#">Chile</li></a>
-                            <li><a href="#">Operators</li></a>
+                        <div id="carousel-othersaid" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner" role="listbox">
+
+                                <div class="item active">
+
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+                                            <figure class="figure-hubba figure-circle">
+                                                <img class="img-responsive" src="assets/img/content/thumb10.jpg" alt="Pistacia Restaurant And Food Template">
+                                                <div class="overlay overlay-black-70"></div>
+                                                <figcaption class="figcaption">
+                                                    <a class="icon"><i class="fa fa-search"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+
+                                        <div class="col-sm-8">
+                                            <i class="fa fa-quote-left"></i>
+                                            ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right"></i>
+                                            <br><br><small>Josephine Walker</small>
+                                        </div>
+
+                                    </div>
+
+                                </div><!-- /.item -->
+
+                                <div class="item">
+
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <figure class="figure-hubba figure-circle">
+                                                <img class="img-responsive" src="assets/img/content/thumb10.jpg" alt="Pistacia Restaurant And Food Template">
+                                                <div class="overlay overlay-black-70"></div>
+                                                <figcaption class="figcaption">
+                                                    <a class="icon"><i class="fa fa-search"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <i class="fa fa-quote-left"></i>
+                                            ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right"></i>
+                                            <br><br><small>Josephine Walker</small>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /.item -->
+
+                                <div class="item">
+
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <figure class="figure-hubba figure-circle">
+                                                <img class="img-responsive" src="assets/img/content/thumb10.jpg" alt="Pistacia Restaurant And Food Template">
+                                                <div class="overlay overlay-black-70"></div>
+                                                <figcaption class="figcaption">
+                                                    <a class="icon"><i class="fa fa-search"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <i class="fa fa-quote-left"></i>
+                                            ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right"></i>
+                                            <br><br><small>Josephine Walker</small>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /.item -->
+
+                            </div><!-- /.carousel-inner -->
+
+                        </div><!-- /.carousel-othersaid -->
+
+                    </div><!-- /.-col-md-3 -->
+
+                    <div class="col-md-3">
+
+                        <h2><span class="extra-bold">Operation</span> <span class="light">Time</span></h2>
+
+                        <ul class="contacts">
+                            <li><i class="fa fa-clock-o"></i> Monday to Thuesday <span class="bold clock">6:00 - 18:00</span></li>
+                            <li><i class="fa fa-clock-o"></i> Friday to Saturdays <span class="bold clock">12:00 - 22:00</span></li>
+                            <li><i class="fa fa-clock-o"></i> Sundays <span class="bold clock">closed</span></li>
                         </ul>
 
                     </div><!-- /.col-md-3 -->
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
-                        <h2 class="footer-column"><span class="extra-bold">Follow</span> <span class="light">us</span></h2>
+                        <h2><span class="extra-bold">Contact</span> <span class="light">Us</span></h2>
 
-                            <div class="socialnet"><a href="#" target="_blank"><img src="assets/img/ico/Facebook_24px.png"  alt="Facebook"></a></div>
-                            <div class="socialnet"><a href="#" target="_blank"><img src="assets/img/ico/Pinterest_24px.png"  alt="Pinterest" ><a href="#" target="_blank"></a></div>
-                            <div class="socialnet"><a href="https://twitter.com/foodinea" target="_blank"><img src="assets/img/ico/Twitter_24px.png" alt="Tweeter"></a></div>
+                        <ul class="contacts">
+                            <li><i class="fa fa-map-marker"></i>753 A 4th St, NY, USA</li>
+                            <li><i class="fa fa-phone"></i>+5 432-234-1234</li>
+                            <li><i class="fa fa-envelope"></i><a href="#">me@medomain.com</a></li>
+                        </ul>
+
                     </div><!-- /.col-md-3 -->
 
+                    <div class="col-md-3 about-us">
 
+                        <h2><span class="extra-bold">About</span> <span class="light">Pistacia</span></h2>
+
+                        <div class="">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        </div>
+
+                    </div><!-- /.about-us -->
 
                 </div><!-- /.row -->
 
@@ -548,7 +720,29 @@
         </footer>
 
 
-       
+        <!-- ***** Bottom bar ***** -->
+        <section class="bottom-bar" id="bottomBar">
+
+            <a href="#pageTop" class="btn btn-white scroll-to"><i class="fa fa-chevron-up"></i></a>
+
+            <div class="container">
+
+                <div class="pull-left">
+                    <div class="padding-top-20"><span class="small">Design by Bumbella - Te discere erroribus sed.</span></div>
+                </div>
+
+                <div class="pull-right">
+                    <ul class="clear bottom-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+
+            </div><!-- /.container -->
+
+        </section><!-- /.bottom-bar -->
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -558,40 +752,32 @@
         <![endif]-->
 
         <!-- Scripts -->
-        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/jquery.cookie.js"></script>
-        <script src="assets/js/jquery-ui.js"></script>
         <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/jquery.cookie.js"></script>
         <script src="assets/js/smoothscroll.js"></script>
         <script src="assets/js/html5shiv.js"></script>
+        <script src="assets/js/scrollto.js"></script>
         <script src="assets/js/imagesloaded.js"></script>
-        <script src="assets/js/flexslider.js"></script>
+        <script src="assets/js/parallax.js"></script>
         <script src="assets/js/owlcarousel.js"></script>
         <script src="assets/js/easing.js"></script>
-        <script src="assets/js/validate.js"></script>
-        <script src="assets/js/masonry.js"></script>
-        <script src="assets/js/scrollto.js"></script>
-        <script src="assets/js/parallax.js"></script>
-        <script src="assets/js/countup.js"></script>
-        <script src="assets/js/google-mapster.js"></script>
+        <script src="assets/js/cbpFWTabs.js"></script>
 
         <!-- Application -->
         <script src="assets/js/application.js"></script>
 
         <!-- Scripts only this page -->
         <script type="text/javascript">
+
             APP.init();
             APP.themeswitcher();
             APP.stickynav();
-            APP.flexSlider();
-            APP.owlCarousel();
-            APP.reservationForm();
-            APP.createGoogleMap();
-            APP.masonry();
             APP.parallax();
-            APP.counterNumbers();
-            APP.portfolio();
+            APP.owlCarousel();
+            APP.CBPFWTabs();
+            APP.spinner();
+
         </script>
 
     </body>
